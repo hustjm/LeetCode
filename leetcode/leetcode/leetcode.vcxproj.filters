@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{53667409-449b-4a6a-95b6-ab632759b9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="solutions">
+      <UniqueIdentifier>{cf8c7025-025f-4752-ad1d-55684c006980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="solutions\two_num">
+      <UniqueIdentifier>{faee7172-dff9-4fa9-a588-8ec6aa1bed50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\solutions\two_num\solution_two_num.cpp">
+      <Filter>solutions\two_num</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\main\main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\solutions\two_num\solution_two_num.h">
+      <Filter>solutions\two_num</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
