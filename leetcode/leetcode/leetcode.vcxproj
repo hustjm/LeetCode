@@ -65,10 +65,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main\main.cpp" />
+    <ClCompile Include="..\src\solutions\add_two_nums\solution_add_two_nums.cpp" />
     <ClCompile Include="..\src\solutions\two_num\solution_two_num.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\main\main.h" />
+    <ClInclude Include="..\src\solutions\add_two_nums\solution_add_two_nums.h" />
     <ClInclude Include="..\src\solutions\two_num\solution_two_num.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

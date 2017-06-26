@@ -10,6 +10,9 @@
     <Filter Include="solutions\two_num">
       <UniqueIdentifier>{faee7172-dff9-4fa9-a588-8ec6aa1bed50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="solutions\add_two_nums">
+      <UniqueIdentifier>{a62f13f6-c6de-4c01-9ccc-708ff5f34f2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main\main.cpp">
@@ -18,6 +21,9 @@
     <ClCompile Include="..\src\solutions\two_num\solution_two_num.cpp">
       <Filter>solutions\two_num</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\solutions\add_two_nums\solution_add_two_nums.cpp">
+      <Filter>solutions\add_two_nums</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\main\main.h">
@@ -25,6 +31,9 @@
     </ClInclude>
     <ClInclude Include="..\src\solutions\two_num\solution_two_num.h">
       <Filter>solutions\two_num</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\solutions\add_two_nums\solution_add_two_nums.h">
+      <Filter>solutions\add_two_nums</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
