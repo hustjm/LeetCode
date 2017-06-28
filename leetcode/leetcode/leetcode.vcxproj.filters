@@ -13,6 +13,9 @@
     <Filter Include="solutions\add_two_nums">
       <UniqueIdentifier>{a62f13f6-c6de-4c01-9ccc-708ff5f34f2b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="solutions\longest_substring_without_repeating_characters">
+      <UniqueIdentifier>{928654a3-0084-4661-9ef0-dac90d750b26}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main\main.cpp">
@@ -24,6 +27,9 @@
     <ClCompile Include="..\src\solutions\add_two_nums\solution_add_two_nums.cpp">
       <Filter>solutions\add_two_nums</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\solutions\longest_substring_without_repeating_characters\longest_substring_without_repeating_characters.cpp">
+      <Filter>solutions\longest_substring_without_repeating_characters</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\main\main.h">
@@ -34,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="..\src\solutions\add_two_nums\solution_add_two_nums.h">
       <Filter>solutions\add_two_nums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\solutions\longest_substring_without_repeating_characters\longest_substring_without_repeating_characters.h">
+      <Filter>solutions\longest_substring_without_repeating_characters</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
