@@ -16,6 +16,9 @@
     <Filter Include="solutions\longest_substring_without_repeating_characters">
       <UniqueIdentifier>{928654a3-0084-4661-9ef0-dac90d750b26}</UniqueIdentifier>
     </Filter>
+    <Filter Include="solutions\media_of_two_sorted_arrays">
+      <UniqueIdentifier>{cf4c23d6-de39-4667-b45f-85a0478e7166}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main\main.cpp">
@@ -30,6 +33,9 @@
     <ClCompile Include="..\src\solutions\longest_substring_without_repeating_characters\longest_substring_without_repeating_characters.cpp">
       <Filter>solutions\longest_substring_without_repeating_characters</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\solutions\media_of_two_sorted_arrays\media_of_two_sorted_arrays.cpp">
+      <Filter>solutions\media_of_two_sorted_arrays</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\main\main.h">
@@ -43,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="..\src\solutions\longest_substring_without_repeating_characters\longest_substring_without_repeating_characters.h">
       <Filter>solutions\longest_substring_without_repeating_characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\solutions\media_of_two_sorted_arrays\media_of_two_sorted_arrays.h">
+      <Filter>solutions\media_of_two_sorted_arrays</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
