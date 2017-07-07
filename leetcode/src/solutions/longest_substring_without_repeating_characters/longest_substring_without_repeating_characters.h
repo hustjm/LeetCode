@@ -25,6 +25,15 @@ public:
     int GetMaxOfOneString(string s);
 };
 
+class SLT_LengthOfLongestSubstring_Quick
+{
+public:
+    SLT_LengthOfLongestSubstring_Quick() {};
+    virtual ~SLT_LengthOfLongestSubstring_Quick() {};
+public:
+    int lengthOfLongestSubstring(string s);
+};
+
 class TestCase_LengthOfLongestSubstring
 {
 public:
@@ -32,6 +41,8 @@ public:
     virtual ~TestCase_LengthOfLongestSubstring(){};
 public:
     void run();
+    void runOrgSolution();
+    void runQuickSolution();
 };
 
 #endif //end ifndef  __LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS_H_2017_06_26__

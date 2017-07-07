@@ -42,10 +42,46 @@ int SLT_LengthOfLongestSubstring::GetMaxOfOneString(string s)
 
 void TestCase_LengthOfLongestSubstring::run()
 {
+    runQuickSolution();
+}
+
+void TestCase_LengthOfLongestSubstring::runOrgSolution()
+{
     string test_string = "sdffa";
     SLT_LengthOfLongestSubstring solution;
     int ret = solution.lengthOfLongestSubstring(test_string);
     printf("test_string:%s\n", test_string.c_str());
     printf("test_result:%d\n", ret);
     getchar();
+}
+
+void TestCase_LengthOfLongestSubstring::runQuickSolution()
+{
+    string test_string = "sdffaafdfa";
+    SLT_LengthOfLongestSubstring_Quick solution;
+    int ret = solution.lengthOfLongestSubstring(test_string);
+    printf("test_string:%s\n", test_string.c_str());
+    printf("test_result:%d\n", ret);
+    getchar();
+}
+
+int SLT_LengthOfLongestSubstring_Quick::lengthOfLongestSubstring(string s)
+{
+    vector<int> dict(256, -1);
+    int maxLen = 0, start = -1;
+    for (int i = 0; i != s.length(); i++) {
+        if (dict[s[i]] > start)
+            start = dict[s[i]];
+        dict[s[i]] = i;
+        int tmp = i - start;
+        if (maxLen > tmp)
+        {
+
+        }
+        else
+        {
+            maxLen = tmp;
+        }
+    }
+    return maxLen;
 }
