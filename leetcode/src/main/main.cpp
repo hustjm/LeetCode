@@ -10,8 +10,11 @@ int main()
 //     TestCase_AddTwoNums tc_AddTwoNums;
 //     tc_AddTwoNums.run();
 
-    TestCase_LengthOfLongestSubstring tc_LengthOfLongestSubstring;
-    tc_LengthOfLongestSubstring.run();
+//     TestCase_LengthOfLongestSubstring tc_LengthOfLongestSubstring;
+//     tc_LengthOfLongestSubstring.run();
+
+    TestCase_MediaOfTwoSortedArrays tc_MediaOfTwoSortedArrays;
+    tc_MediaOfTwoSortedArrays.run();
 }
 
 
