@@ -12,8 +12,7 @@
 #ifndef __MEDIA_OF_TWO_SORTED_ARRAYS_H_2017_07_07__
 #define __MEDIA_OF_TWO_SORTED_ARRAYS_H_2017_07_07__
 
-#include <iostream>
-#include <vector>
+#include "../../base_util/util.h"
 
 using namespace std;
 

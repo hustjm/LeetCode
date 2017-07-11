@@ -19,6 +19,12 @@
     <Filter Include="solutions\media_of_two_sorted_arrays">
       <UniqueIdentifier>{cf4c23d6-de39-4667-b45f-85a0478e7166}</UniqueIdentifier>
     </Filter>
+    <Filter Include="solutions\longest_palindromic_substring">
+      <UniqueIdentifier>{a8b36298-6d5a-48cc-85ba-2c6878d5b3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_util">
+      <UniqueIdentifier>{b3b5c5e8-3621-4614-8a3e-2e27edc32f06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main\main.cpp">
@@ -36,6 +42,12 @@
     <ClCompile Include="..\src\solutions\media_of_two_sorted_arrays\media_of_two_sorted_arrays.cpp">
       <Filter>solutions\media_of_two_sorted_arrays</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\solutions\longest_palindromic_substring\longest_palindromic_substring.cpp">
+      <Filter>solutions\longest_palindromic_substring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base_util\util.cpp">
+      <Filter>base_util</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\main\main.h">
@@ -52,6 +64,12 @@
     </ClInclude>
     <ClInclude Include="..\src\solutions\media_of_two_sorted_arrays\media_of_two_sorted_arrays.h">
       <Filter>solutions\media_of_two_sorted_arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\solutions\longest_palindromic_substring\longest_palindromic_substring.h">
+      <Filter>solutions\longest_palindromic_substring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base_util\util.h">
+      <Filter>base_util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

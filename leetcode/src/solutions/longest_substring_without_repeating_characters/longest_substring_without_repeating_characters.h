@@ -11,9 +11,7 @@
 
 #ifndef __LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS_H_2017_06_26__
 #define __LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS_H_2017_06_26__
-#include <iostream>
-#include <vector>
-using namespace std;
+#include "../../base_util/util.h"
 
 class SLT_LengthOfLongestSubstring
 {

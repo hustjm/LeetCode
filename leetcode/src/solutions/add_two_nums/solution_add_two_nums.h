@@ -12,8 +12,7 @@
 #ifndef __SOLUTION_ADD_TWO_NUMS_H_2017_06_25__
 #define __SOLUTION_ADD_TWO_NUMS_H_2017_06_25__
 
-#include <iostream>
-#include <vector>
+#include "../../base_util/util.h"
 
 struct ListNode {
     int val;

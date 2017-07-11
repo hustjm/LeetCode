@@ -64,15 +64,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\base_util\util.cpp" />
     <ClCompile Include="..\src\main\main.cpp" />
     <ClCompile Include="..\src\solutions\add_two_nums\solution_add_two_nums.cpp" />
+    <ClCompile Include="..\src\solutions\longest_palindromic_substring\longest_palindromic_substring.cpp" />
     <ClCompile Include="..\src\solutions\longest_substring_without_repeating_characters\longest_substring_without_repeating_characters.cpp" />
     <ClCompile Include="..\src\solutions\media_of_two_sorted_arrays\media_of_two_sorted_arrays.cpp" />
     <ClCompile Include="..\src\solutions\two_num\solution_two_num.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\base_util\util.h" />
     <ClInclude Include="..\src\main\main.h" />
     <ClInclude Include="..\src\solutions\add_two_nums\solution_add_two_nums.h" />
+    <ClInclude Include="..\src\solutions\longest_palindromic_substring\longest_palindromic_substring.h" />
     <ClInclude Include="..\src\solutions\longest_substring_without_repeating_characters\longest_substring_without_repeating_characters.h" />
     <ClInclude Include="..\src\solutions\media_of_two_sorted_arrays\media_of_two_sorted_arrays.h" />
     <ClInclude Include="..\src\solutions\two_num\solution_two_num.h" />
