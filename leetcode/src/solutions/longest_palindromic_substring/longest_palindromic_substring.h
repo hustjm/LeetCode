@@ -20,6 +20,8 @@ public:
     virtual ~SLT_LongestPalindromicSubstring() {};
 public:
     string longestPalindrome(string s);
+    string JudgeSubstring(string& s, int sub_begin, int sub_end);
+    bool IsPalindrome(string s);
 };
 
 class Testcase_LongestPalindromicSubstring

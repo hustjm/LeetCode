@@ -13,8 +13,11 @@ int main()
 //     TestCase_LengthOfLongestSubstring tc_LengthOfLongestSubstring;
 //     tc_LengthOfLongestSubstring.run();
 
-    TestCase_MediaOfTwoSortedArrays tc_MediaOfTwoSortedArrays;
-    tc_MediaOfTwoSortedArrays.run();
+//     TestCase_MediaOfTwoSortedArrays tc_MediaOfTwoSortedArrays;
+//     tc_MediaOfTwoSortedArrays.run();
+
+    Testcase_LongestPalindromicSubstring tc_LongestPalindromicSubstring;
+    tc_LongestPalindromicSubstring.run();
 }
 
 
