@@ -25,6 +25,12 @@
     <Filter Include="base_util">
       <UniqueIdentifier>{b3b5c5e8-3621-4614-8a3e-2e27edc32f06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="xxx_test">
+      <UniqueIdentifier>{287dd897-6728-40db-8cb3-9d9a32851b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xxx_test\std_set_symmetric_difference">
+      <UniqueIdentifier>{8ab274a1-67eb-4cf5-b927-10a561967eba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main\main.cpp">
@@ -48,6 +54,9 @@
     <ClCompile Include="..\src\base_util\util.cpp">
       <Filter>base_util</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\xxx_test\std__set_symmetric_difference_test.cpp">
+      <Filter>xxx_test\std_set_symmetric_difference</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\main\main.h">
@@ -70,6 +79,9 @@
     </ClInclude>
     <ClInclude Include="..\src\base_util\util.h">
       <Filter>base_util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\xxx_test\std__set_symmetric_difference_test.h">
+      <Filter>xxx_test\std_set_symmetric_difference</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

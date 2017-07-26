@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include "main.h"
-
+#include "../xxx_test/std__set_symmetric_difference_test.h"
 int main()
 {
 //     TestCase_TwoNum tc_TwoNum;
@@ -18,6 +18,14 @@ int main()
 
     Testcase_LongestPalindromicSubstring tc_LongestPalindromicSubstring;
     tc_LongestPalindromicSubstring.run();
+
+       /*
+        *  std::set_symmetric_difference ”√∑®≤‚ ‘
+        */
+//     CTest_StdSymmetricDiffrence test;
+//     test.RunTest();
+
+    getchar();
 }
 
 
