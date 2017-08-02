@@ -57,6 +57,9 @@
     <ClCompile Include="..\src\xxx_test\std__set_symmetric_difference_test.cpp">
       <Filter>xxx_test\std_set_symmetric_difference</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\xxx_test\std__map_erase_test.cpp">
+      <Filter>xxx_test\std_set_symmetric_difference</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\main\main.h">
@@ -81,6 +84,9 @@
       <Filter>base_util</Filter>
     </ClInclude>
     <ClInclude Include="..\src\xxx_test\std__set_symmetric_difference_test.h">
+      <Filter>xxx_test\std_set_symmetric_difference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\xxx_test\std__map_erase_test.h">
       <Filter>xxx_test\std_set_symmetric_difference</Filter>
     </ClInclude>
   </ItemGroup>
